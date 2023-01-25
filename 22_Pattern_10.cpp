@@ -5,17 +5,19 @@ int main()
     int n;
     cin>>n;
     for(int i=1;i<=n;i++){
-        int p=i;
-        for(int j=1;j<=i;j++){
-            cout<<p;
-            p=p+1;
+        for(int j=1;j<=n;j++){
+            char a='A'+i-1;
+            cout<<a;
         }
         cout<<endl;
     }
+    // int p=65;
     // for(int i=1;i<=n;i++){
-    //     for(int j=1;j<=i;j++){
-    //         cout<<i+j-1;
+    //     for(int j=1;j<=n;j++){
+    //         char a=p;
+    //         cout<<a;
     //     }
+    //     p++;
     //     cout<<endl;
     // }
     return 0;

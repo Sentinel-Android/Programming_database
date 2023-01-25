@@ -8,13 +8,13 @@ int main()
         int p=i;
         for(int j=1;j<=i;j++){
             cout<<p;
-            p=p+1;
+            p--;
         }
         cout<<endl;
     }
     // for(int i=1;i<=n;i++){
     //     for(int j=1;j<=i;j++){
-    //         cout<<i+j-1;
+    //         cout<<i-j+1;
     //     }
     //     cout<<endl;
     // }
