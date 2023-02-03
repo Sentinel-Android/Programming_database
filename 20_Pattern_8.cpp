@@ -8,7 +8,7 @@ int main()
         int p=i;
         for(int j=1;j<=i;j++){
             cout<<p;
-            p=p+1;
+            p++;
         }
         cout<<endl;
     }

@@ -4,11 +4,10 @@ int main()
 {
     int n;
     cin>>n;
-    char a='A';
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
+            char a='A'+i+j-2;
             cout<<a;
-            a++;   
         }
         cout<<endl;
     }
